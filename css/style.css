@@ -1,0 +1,111 @@
+html {
+    background-color: rgb(255, 255, 255);
+}
+
+.caixaImg {
+    position: relative;
+    width: 100;
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+}
+
+.imagem {
+    display: block;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.caixaImg:hover .sobreposicao {
+    opacity: 0.7;
+}
+
+.sobreposicao {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+}
+
+.texto {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    opacity: 5;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+header {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+}
+
+.principal {
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    width: 50%;
+    font-family: 'Prata', serif;
+    color: rgb(0, 0, 0);
+}
+
+h2 {
+    font-size: 30px;
+    font-family: 'Prata', serif;
+}
+
+p {
+    font-family: 'PT Sans', sans-serif;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: medium;
+    text-align: justify;
+    line-height: 25px;
+}
+
+/*Logo do site*/
+.logo {
+    width="200"
+}
+
+/*parágrafo*/
+.box {
+    text-align: center;
+    justify-content: center;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: arial;
+}
+
+.titulo {
+    width: 50%;
+    margin: 0 auto;
+    font-family: arial;
+    align-items: center center;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+}
+
+.rodape {
+    grid-area: rodape;
+    margin: 0 auto;
+    font-family: 'PT Sans', sans-serif;
+    font-size: x-small;
+    text-align: justify;
+}
