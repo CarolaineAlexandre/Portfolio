@@ -54,7 +54,7 @@ header {
     color: rgb(0, 0, 0);
     display: inline-block;
     width: 50%;
-    font-family: 'Prata', serif;
+    font-family: 'Playfair Display', serif;
     color: rgb(0, 0, 0);
 }
 
@@ -63,7 +63,7 @@ h2 {
     font-family: 'Prata', serif;
 }
 
-p {
+p, ul {
     font-family: 'PT Sans', sans-serif;
     margin-left: 20%;
     margin-right: 20%;
