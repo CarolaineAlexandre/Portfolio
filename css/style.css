@@ -18,7 +18,7 @@ html {
 }
 
 .caixaImg:hover .sobreposicao {
-    opacity: 0.7;
+    opacity: 0.6;
 }
 
 .sobreposicao {
@@ -29,11 +29,11 @@ html {
     right: 0;
     opacity: 0;
     transition: .5s ease;
-    background-color: #008CBA;
+    background-color: #ff0099;
 }
 
 .texto {
-    color: white;
+    color: rgb(255, 255, 255);
     font-size: 20px;
     position: absolute;
     top: 50%;
@@ -74,13 +74,15 @@ p, ul {
 
 /*Logo do site*/
 .logo {
-    width="200"
+    width: 200;
+    margin-right: 07%;
 }
 
 /*parágrafo*/
 .box {
     text-align: center;
     justify-content: center;
+    margin-bottom: 50px;
 }
 
 .cabecalho {
@@ -88,6 +90,7 @@ p, ul {
     justify-content: space-around;
     align-items: center;
     font-family: arial;
+
 }
 
 .titulo {
@@ -108,4 +111,14 @@ p, ul {
     font-family: 'PT Sans', sans-serif;
     font-size: x-small;
     text-align: justify;
+}
+
+
+svg{
+    width: 30px;
+    margin: 20px;
+}
+
+.icon{
+    margin-top: 20%;
 }
