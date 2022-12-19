@@ -1,5 +1,5 @@
 html {
-background: linear-gradient(to right, #dad9d9db, #ffffff);
+background: linear-gradient(to right, #ffffffdb, #ebebebdb, #dbdbdbdb);
 }
 
 .caixaImg {
@@ -46,7 +46,7 @@ background: linear-gradient(to right, #dad9d9db, #ffffff);
 }
 
 header {
-background: linear-gradient(to right, #dad9d9db, #ffffff);
+    background: linear-gradient(to right, #ffffffdb, #ebebebdb, #dbdbdbdb);
     width: 100%;
 }
 
