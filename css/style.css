@@ -1,5 +1,6 @@
 html, body {
     background: linear-gradient(to right, #ffffffdb, #ebebebdb, #dbdbdbdb);
+    width: 100%;
 }
 
 .caixaImg {
