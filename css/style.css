@@ -1,11 +1,10 @@
-html, body {
+html,body {
     background: linear-gradient(to right, #ffffffdb, #ebebebdb, #dbdbdbdb);
-    width: 100%;
+
 }
 
 .caixaImg {
     position: relative;
-
     display: inline-block;
     text-align: center;
     justify-content: center;
@@ -49,7 +48,7 @@ html, body {
 
 header {
     background: linear-gradient(to right, #ffffffdb, #ebebebdb, #dbdbdbdb);
-    width: 100%;
+    width: auto;
 }
 
 .principal {
@@ -76,7 +75,7 @@ p, ul {
 
 /*Logo do site*/
 .logo {
-    width: 200;
+    width: auto;
     margin-right: 07%;
 }
 
@@ -100,10 +99,10 @@ p, ul {
 }
 
 .titulo {
-    width: 50%;
-    margin: 0 auto;
+
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     align-items: center center;
+    font-size: sm;
 }
 
 .link {
@@ -122,7 +121,7 @@ p, ul {
 
 svg{
     width: 30px;
-    margin: 20px;
+    margin: 10px;
 }
 
 .icon{
@@ -158,3 +157,6 @@ button{
     margin-left: 70px;
 }
 
+.selector-for-some-widget {
+    box-sizing: content-box;
+  }
