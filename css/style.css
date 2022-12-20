@@ -49,14 +49,20 @@ html,body {
 header {
     background: linear-gradient(to right, #ffffffdb, #ebebebdb, #dbdbdbdb);
     width: auto;
+    padding-left: 20px;
+    padding-top: 30px;
 }
 
 .principal {
-    color: rgb(0, 0, 0);
-    display: inline-block;
-    width: 50%;
+    color: #000000;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: arial;
+    padding-top: 60px;
+    margin-bottom: 20px;
     font-family: 'Playfair Display', serif;
-    color: rgb(0, 0, 0);
+
 }
 
 h2 {
@@ -73,11 +79,6 @@ p, ul {
     line-height: 25px;
 }
 
-/*Logo do site*/
-.logo {
-    width: auto;
-    margin-right: 07%;
-}
 
 /*parágrafo*/
 .box {
@@ -112,7 +113,7 @@ p, ul {
 
 .rodape {
     grid-area: rodape;
-    margin: 0 auto;
+    margin: 15px;
     font-family: 'PT Sans', sans-serif;
     font-size: x-small;
     text-align: justify;
