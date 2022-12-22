@@ -106,10 +106,6 @@ p, ul {
     font-size: sm;
 }
 
-.link {
-    text-decoration: none;
-    color: black;
-}
 
 .rodape {
     grid-area: rodape;
@@ -155,7 +151,8 @@ button{
 
 .box2{
     margin-top: 25px;
-    margin-left: 70px;
+    text-align: center;
+    justify-content: center;
 }
 
 .selector-for-some-widget {
