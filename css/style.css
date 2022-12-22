@@ -51,6 +51,8 @@ header {
     width: auto;
     padding-left: 20px;
     padding-top: 30px;
+
+
 }
 
 .principal {
@@ -59,7 +61,7 @@ header {
     justify-content: space-around;
     align-items: center;
     font-family: arial;
-    padding-top: 60px;
+    padding-top: 150px;
     margin-bottom: 20px;
     font-family: 'Playfair Display', serif;
 
@@ -147,6 +149,7 @@ button{
 .offcanvas-body{
    color:#fffdf2;
   background-color: #667eb3;
+  margin-bottom: 1rem;
 }
 
 .box2{
@@ -158,3 +161,4 @@ button{
 .selector-for-some-widget {
     box-sizing: content-box;
   }
+

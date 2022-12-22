@@ -7,3 +7,4 @@ const myAlert = document.getElementById('myAlert')
 myAlert.addEventListener('closed.bs.alert', event => {
 
 })
+
