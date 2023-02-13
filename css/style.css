@@ -169,8 +169,7 @@ button {
     margin-top: 25px;
     text-align: center;
     justify-content: center;
-    display: block;
-    display: flex;
+    display:flex;
     justify-content: space-around;
     align-items: center;
 
